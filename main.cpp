@@ -8,7 +8,6 @@
 int main(int argc, char* argv[]){
 
     std::cout<<"App name: "<<argv[0]<<std::endl;
-    std::cout<<"Version: "<<main_VERSION_MAJOR<<"."<<main_VERSION_MINOR<<"."<<main_VERSION_PATCH<<"."<<main_VERSION_TWEAK<<std::endl;
     std::string input_fn{""};
 
     if(argc>=2){
