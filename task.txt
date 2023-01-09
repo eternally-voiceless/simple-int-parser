@@ -1,0 +1,3 @@
+Exercise:
+1. Program takes a lines in the form of math expression line by line.
+2. Program calculate resulting value for each line and print result in std::cout and record it into output file.txt 

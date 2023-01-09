@@ -1,0 +1,4 @@
+#define main_VERSION_MAJOR @simple_parser_VERSION_MAJOR@
+#define main_VERSION_MINOR @simple_parser_VERSION_MINOR@
+#define main_VERSION_PATCH @simple_parser_VERSION_PATCH@
+#define main_VERSION_TWEAK @simple_parser_VERSION_TWEAK@
