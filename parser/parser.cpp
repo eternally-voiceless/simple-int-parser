@@ -2,6 +2,7 @@
 
 long multiply(const std::string& expr="1*1*1");
 long subtract(const std::string& expr="12-7-4");
+long sum(const std::string& expr="1+1");
 
 
 std::vector<std::string> split(const std::string& str, char delimiter){
@@ -60,7 +61,7 @@ long subtract(const std::string& expr){
 }
 
 
-long parser(const std::string& expr){
+long sum(const std::string& expr){
     //string: expr+expr+expr... ---> long: calculated value
     long result{0};
     std::vector<std::string> terms=split(expr, '+');
@@ -70,4 +71,8 @@ long parser(const std::string& expr){
     }
 
     return result;
+}
+
+long parser(const std::string& expr){
+    return sum(expr);
 }
